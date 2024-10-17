@@ -42,7 +42,7 @@ public class BasicOrderTest {
         // 1 | open | / |
         driver.get("http://sportsstore.innovium.net/");
         // 2 | setWindowSize | 1920x981 |
-        driver.manage().window().setSize(new Dimension(1920, 981));
+        driver.manage().window().maximize();
         // 3 | click | linkText=Home |
         driver.findElement(By.linkText("Home")).click();
         // 4 | waitForElementVisible | css=.card:nth-child(1) h4 | 30000
