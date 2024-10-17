@@ -1,0 +1,2 @@
+Bu bir dosya yazma örneğidir.
+Java dosya işlemleri.
